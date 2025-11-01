@@ -26,8 +26,6 @@ public class MergeIntervals {
             merged.add(current);
         }
      }
-
-
         return merged.toArray(new int[merged.size()][]);
     }
 }
