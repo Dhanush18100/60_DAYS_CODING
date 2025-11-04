@@ -1,6 +1,7 @@
 public class maxWater {
     public static void main(String[] args) {
         int arr[]={2, 1, 8, 6, 4, 6, 5, 5};
+        System.out.println(maximunWater(arr));
     }
     public static int maximunWater(int arr[]){
         int res=arr[0];
