@@ -1,6 +1,7 @@
 public class vowelsConsonent {
     public static void main(String[] args) {
       String str=  "Hello World";
+      str=str.toLowerCase();
     count(str);
     }
     public static void count(String str){
