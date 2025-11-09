@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class balanceParanthesisUsingStacks {
     public static void main(String[] args) {
-        String str = "()(())()";
+        String str = "()(())(";
         if (check(str) == 0) {
             System.out.println("Invalid");
         }
