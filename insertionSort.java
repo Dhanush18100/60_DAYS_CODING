@@ -2,7 +2,6 @@ public class insertionSort {
     public static void main(String[] args) {
          int[] arr = {12, 11, 13, 5, 6};
         insertSort(arr);
-
         System.out.println("Sorted Array:");
         for (int num : arr) {
             System.out.print(num + " ");
