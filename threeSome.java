@@ -16,7 +16,7 @@ public class threeSome {
         Arrays.sort(nums);
         int i,j,k;
         for(i=0;i<nums.length;i++){
-            if(i>0 &&nums[i]==nums[i-1]){
+            if(i>0 && nums[i]==nums[i-1]){
                 continue;
             }
             j=i+1;
